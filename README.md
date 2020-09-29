@@ -2,7 +2,7 @@
 
 ## How to participate ?
 
-- First, fork this repository as a private repository on your Github account
+- First, fork this repository on your Github account
 - Add me (@ThomFree) as a collaborator on the project
 - Then, start the test by finishing to read this README.md file
 
