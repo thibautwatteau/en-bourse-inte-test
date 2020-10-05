@@ -1,3 +1,111 @@
-.red-text {
-	color: red;
+.page-test {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-test .primary {
+  color: #8fc642;
+}
+
+.page-test .uppercase {
+  text-transform: uppercase;
+}
+
+.page-test .f-black {
+  font-weight: 900;
+}
+
+.page-test .cta {
+  font-size: 1.125rem;
+  display: inline-flex;
+  min-width: 430px;
+  height: 70px;
+  cursor: pointer;
+  transition: transform .2s;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background: #fd942e;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-test .cta:hover {
+  transform: translateY(-3px);
+}
+
+.page-test .introduction {
+  padding: 65px 0 30px;
+  background: url(img/introduction.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.page-test .introduction__logo {
+  display: flex;
+  align-items: center;
+}
+
+.page-test .introduction__logo img {
+  display: block;
+}
+
+.page-test .introduction__logo > div {
+  margin-left: 15px;
+  color: #fff;
+}
+
+.page-test .introduction__logo > div .logo__title {
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+  display: block;
+  text-transform: uppercase;
+}
+
+.page-test .introduction__logo > div .logo__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  letter-spacing: 5px;
+}
+
+.page-test .introduction__content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.page-test .introduction__content .content__visu img {
+  width: 100%;
+  height: auto;
+}
+
+.page-test .introduction__content .content__text {
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.page-test .introduction__content .content__text .cta {
+  margin-top: 60px;
+}
+
+.page-test .introduction__content .content__text > span {
+  display: block;
+  text-align: center;
+}
+
+.page-test .introduction__content .content__text > span.f-21 {
+  font-size: 21px;
+}
+
+.page-test .introduction__content .content__text > span.f-31 {
+  font-size: 31px;
+}
+
+.page-test .introduction__content .content__text > span.f-33 {
+  font-size: 33px;
+}
+
+.page-test .introduction__content .content__text > span.f-39 {
+  font-size: 39px;
+  line-height: 39px;
 }
